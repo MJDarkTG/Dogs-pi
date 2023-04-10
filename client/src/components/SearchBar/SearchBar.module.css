@@ -1,0 +1,26 @@
+.input {
+  margin: 10px 10px;
+  padding: 16px 32px;
+  border: 1px solid #551a8b;
+  border-radius: 24px;  
+  color: #551a8b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;  
+  transition: background-color 0.3s ease;
+}
+.button {
+  margin-top: 12px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 24px;
+  background-color: #fda085;
+  color: #551a8b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,220 @@
+.form {
+  min-height: 60rem;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonVolver {
+  margin-top: 12px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 24px;
+  background-color: #fda085;
+  color: #07780c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonVolver:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.buttonAgregar {
+  border: 2px solid rgb(210, 30, 30);
+  font-size: 1rem;
+  background-color: rgba(222, 65, 13, 0.767);
+  border-radius: 10px;
+  margin-top: 10px;
+  color: black;
+}
+
+.buttonAgregar:hover {
+  background-color: rgb(82, 82, 208);
+}
+
+.agregarRaza {
+  border: 2px solid chocolate;
+  font-size: 1.3rem;
+  background-color: rgba(255, 183, 0, 0.767);
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.827);
+  margin-top: 2rem;
+}
+
+.name {
+  /* border: 2px solid chocolate; */
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+.alturaMax {
+  border: 2px solid chocolate;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.alturaMin {
+  border: 2px solid chocolate;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.pesoMax {
+  border: 2px solid chocolate;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.pesoMin {
+  border: 2px solid chocolate;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.life_span {
+  border: 2px solid chocolate;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.image {
+  border: 2px solid chocolate;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.prueba {
+  border: 1px solid #551a8b;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  margin-top: 4px;
+  padding: 15px;  
+}
+
+.lista {
+  margin-top: 0;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  
+  /* border: 1px solid; */
+}
+.lista h3{
+  color: #551a8b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* -------------------------- */
+.container {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: URL("../image//huellitas2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.input {
+  margin: 10px 10px;
+  padding: 16px 32px;
+  border: 1px solid #551a8b;
+  border-radius: 24px;
+  color: #551a8b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.divCont {
+  display: flex;
+  flex-direction: row;
+}
+.addtemper{
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.card {
+  min-height: 53rem;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 262.281px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.name h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.info li {
+  margin-bottom: 5px;
+}
+
+.info li strong {
+  font-weight: bold;
+  margin-right: 5px;
+}

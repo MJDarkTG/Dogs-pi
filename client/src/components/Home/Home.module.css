@@ -1,0 +1,91 @@
+.tarjeta {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 8.9rem;
+}
+.volver {  
+  margin-top: 12px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 24px;
+  background-color: #fda085;
+  color: #07780c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+.volver:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.volver a {
+  text-decoration: none;
+  padding: 10px;
+}
+.selects {
+  position: relative;
+  top: 12px;
+  
+}
+.select{
+
+  margin: 10px 10px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 24px;
+  background-color: #fda085;
+  color: #551a8b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.LinkForm {
+  position: relative;
+  text-decoration: none;
+  padding: 15PX;
+  
+}
+.buttonForm:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+} 
+.form{
+  
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+.buttonForm {  
+  margin-top: 12px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 24px;
+  background-color: #fda085;
+  color: #07780c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+/* ---------------------------------------- */
+.cajaMayor {
+  min-height: 70rem;
+  background-image: URL("../image//huellitas2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
