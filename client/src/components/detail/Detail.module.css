@@ -42,45 +42,6 @@
   border-radius: 1.5rem;
 }
 
-.altura {
-  margin-top: -25px;
-  border: 2px solid chocolate;
-  font-size: 1.5rem;
-  background-color: chocolate;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.peso {
-  margin-top: -30px;
-  border: 2px solid chocolate;
-  font-size: 1.5rem;
-  background-color: chocolate;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.temper {
-  margin-top: -35px;
-  border: 2px solid chocolate;
-  font-size: 1.5rem;
-  background-color: chocolate;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.life {
-  margin-top: -20px;
-  border: 2px solid chocolate;
-  font-size: 1.5rem;
-  background-color: chocolate;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-}
 
 /* ------------------------- */
 .card {

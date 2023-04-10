@@ -13,7 +13,8 @@ const url = `https://api.thedogapi.com/v1/breeds?api_key=${API_KEY}`;
 rootRouter.get("/", async (req, res) => {
     const TemperApi = await axios.get(url);
     const Tempers = TemperApi.data.map((temper) => temper.temperament);
-    const TemperArr = Tempers.toString().split(","); //convierto todo en string luego lo coloco en un arr
+    const TemperArr = Tempers.toString().split(","); 
+    //convierto todo en string luego lo coloco en un arr
     //borro los temperamentos que no tengan nada
     const arreglo = TemperArr.filter((e) => e);
 
